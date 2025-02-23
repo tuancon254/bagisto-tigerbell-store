@@ -28,5 +28,11 @@ return [
             'build_directory'          => 'themes/installer/default/build',
             'package_assets_directory' => 'src/Resources/assets',
         ],
+
+        'media_manage' => [
+            'hot_file'                 => 'mediamanager-default-vite.hot',
+            'build_directory'          => 'themes/mediamanager/default/build',
+            'package_assets_directory' => 'src/Resources/assets',
+        ],
     ],
 ];

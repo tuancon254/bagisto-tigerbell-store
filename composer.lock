@@ -4,8 +4,68 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dee781f724d2a6a876d8a2322b32a2ed",
+    "content-hash": "d6ed73be2e8d0d773cc16a2d4dcf616b",
     "packages": [
+        {
+            "name": "alexusmai/laravel-file-manager",
+            "version": "v3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alexusmai/laravel-file-manager.git",
+                "reference": "c586cd858e3250c9f2363baca1f1ade8fb1cf8c9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexusmai/laravel-file-manager/zipball/c586cd858e3250c9f2363baca1f1ade8fb1cf8c9",
+                "reference": "c586cd858e3250c9f2363baca1f1ade8fb1cf8c9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-zip": "*",
+                "intervention/image": "^2.7",
+                "intervention/imagecache": "^2.6",
+                "laravel/framework": "^9.0|^10.0",
+                "league/flysystem": "^3.0",
+                "php": "^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Alexusmai\\LaravelFileManager\\FileManagerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Alexusmai\\LaravelFileManager\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aleksandr Manekin",
+                    "email": "alexusmai@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "File manager for Laravel",
+            "homepage": "https://github.com/alexusami/laravel-file-manager",
+            "keywords": [
+                "file",
+                "laravel",
+                "manager"
+            ],
+            "support": {
+                "issues": "https://github.com/alexusmai/laravel-file-manager/issues",
+                "source": "https://github.com/alexusmai/laravel-file-manager/tree/v3.1.1"
+            },
+            "time": "2023-11-28T06:28:08+00:00"
+        },
         {
             "name": "astrotomic/laravel-translatable",
             "version": "v11.15.1",
@@ -98,6 +158,51 @@
                 }
             ],
             "time": "2024-08-28T09:20:26+00:00"
+        },
+        {
+            "name": "bagisto/bagisto-package-generator",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bagisto/bagisto-package-generator.git",
+                "reference": "84a0fe962e2bf139449e96d542c5a791a8c30f68"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bagisto/bagisto-package-generator/zipball/84a0fe962e2bf139449e96d542c5a791a8c30f68",
+                "reference": "84a0fe962e2bf139449e96d542c5a791a8c30f68",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "aliases": [],
+                    "providers": [
+                        "Webkul\\PackageGenerator\\Providers\\PackageGeneratorServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Webkul\\PackageGenerator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jitendra Singh",
+                    "email": "jitendra@webkul.com"
+                }
+            ],
+            "description": "Bagisto Package Generator",
+            "support": {
+                "issues": "https://github.com/bagisto/bagisto-package-generator/issues",
+                "source": "https://github.com/bagisto/bagisto-package-generator/tree/v2.0.0"
+            },
+            "time": "2024-02-14T14:26:21+00:00"
         },
         {
             "name": "barryvdh/laravel-dompdf",

@@ -150,7 +150,6 @@
             app.mount("#app");
         });
     </script>
-
     {!! view_render_event('bagisto.admin.layout.vue-app-mount.after') !!}
 </body>
 
